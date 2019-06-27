@@ -22,7 +22,7 @@
           <mass value="0.25" />
           <origin xyz="0 0 0" />
      	  <!--inertia ixx="1.0" ixy="0.0" ixz="0.0"
-               iyy="100.0" iyz="0.0" 
+               iyy="100.0" iyz="0.0"
                izz="1.0" /-->
       	  <inertia  ixx="1.0" ixy="0.0"  ixz="0.0"  iyy="1.0"  iyz="0.0"  izz="1.0" />
       </inertial>
@@ -85,7 +85,7 @@
           <mass value="0.1" />
           <origin xyz="0 0 0" />
       <inertia ixx="1.0" ixy="0.0" ixz="0.0"
-               iyy="1.0" iyz="0.0" 
+               iyy="1.0" iyz="0.0"
                izz="1.0" />
       </inertial>
 
@@ -95,9 +95,7 @@
              <mesh filename="package://wsg_50_simulation/meshes/GUIDE_WSG50_110.stl" scale="0.001 0.001 0.001"/>
 	     <!--box size="0.0175 0.03 0.024"/-->
           </geometry>
-          <material name="black">
-		<color rgba="0 0 0 0"/>
-      	  </material>
+          <material name="flat_black"/>
       </visual>
 
       <collision>
@@ -131,7 +129,7 @@
           <mass value="0.1" />
           <origin xyz="0 0 0" />
       <inertia ixx="1.0" ixy="0.0" ixz="0.0"
-               iyy="1.0" iyz="0.0" 
+               iyy="1.0" iyz="0.0"
                izz="1.0" />
       </inertial>
 
@@ -140,9 +138,7 @@
           <geometry>
              <mesh filename="package://wsg_50_simulation/meshes/WSG-FMF.stl" scale="0.001 0.001 0.001"/>
           </geometry>
-          <material name="black">
-		<color rgba="0 0 0 0"/>
-      	  </material>
+          <material name="flat_black"/>
       </visual>
 
       <collision>
@@ -178,13 +174,13 @@
      <mechanicalReduction>1</mechanicalReduction>
      <motorTorqueConstant>1</motorTorqueConstant>
   </transmission>
-	
+
     <link name="${name}_gripper_right">
       <inertial>
           <mass value="0.1" />
           <origin xyz="0 0 0" />
       <inertia ixx="1.0" ixy="0.0" ixz="0.0"
-               iyy="1.0" iyz="0.0" 
+               iyy="1.0" iyz="0.0"
                izz="1.0" />
       </inertial>
 
@@ -194,9 +190,7 @@
              <mesh filename="package://wsg_50_simulation/meshes/GUIDE_WSG50_110.stl" scale="0.001 0.001 0.001"/>
 	     <!--box size="0.0175 0.03 0.024"/-->
           </geometry>
-          <material name="black">
-		<color rgba="0 0 0 0"/>
-      	  </material>
+          <material name="flat_black"/>
       </visual>
 
       <collision>
@@ -230,7 +224,7 @@
           <mass value="0.1" />
           <origin xyz="0 0 0" />
       <inertia ixx="1.0" ixy="0.0" ixz="0.0"
-               iyy="1.0" iyz="0.0" 
+               iyy="1.0" iyz="0.0"
                izz="1.0" />
       </inertial>
 
@@ -239,9 +233,7 @@
           <geometry>
              <mesh filename="package://wsg_50_simulation/meshes/WSG-FMF.stl" scale="0.001 0.001 0.001"/>
           </geometry>
-          <material name="black">
-		<color rgba="0 0 0 0"/>
-      	  </material>
+          <material name="flat_black"/>
       </visual>
 
       <collision>
